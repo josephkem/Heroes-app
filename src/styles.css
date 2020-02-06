@@ -10,6 +10,8 @@ h1 {
   }
   body {
     margin: 2em;
+    background: #2e2e2e;
+    background: linear-gradient(to bottom left, #2e2e2e 0%, #101010 85%);
   }
   body, input[type="text"], button {
     color: #333;
@@ -19,3 +21,8 @@ h1 {
   * {
     font-family: Arial, Helvetica, sans-serif;
   }
+
+
+  
+
+ 
