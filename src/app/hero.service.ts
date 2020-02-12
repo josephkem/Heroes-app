@@ -7,8 +7,9 @@ import { Observable, of } from 'rxjs';
   providedIn: 'root'
 })
 export class HeroService {
-  getHeroes(): Observable<Hero[]> {
-    return of(HEROES);
+  getHeroes(): Hero[] {
+    return HEROES;
+
   }
 
   constructor() { }
