@@ -5,6 +5,7 @@ h2 {
   }
   body {
     margin: 2em;
+
   }
   body, input[text], button {
     color: crimson;
@@ -31,4 +32,8 @@ h2 {
   button.clear {
     color: #333;
     margin-bottom: 12px;
+  }
+
+  .msgs {
+    color: white;
   }
